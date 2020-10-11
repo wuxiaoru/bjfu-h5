@@ -1,0 +1,46 @@
+/* 全局样式表 */
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 1366px;
+  background-color: #f0f2f5;
+}
+/* card样式设置阴影 */
+.el-card {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+}
+/* table样式 */
+.el-table {
+  margin-top: 15px;
+  font-size: 14px;
+}
+/* 让表头居中，添加背景 */
+.el-table th {
+  font-size: 15px;
+  background-color: #f5f7fa;
+  text-align: center;
+}
+/* 每一个单元格居中 */
+.el-table td {
+  text-align: center;
+}
+/* 分页 */
+.el-pagination {
+  margin-top: 15px;
+  text-align: right;
+}
+/*声明清除浮动的样式*/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
