@@ -3,7 +3,7 @@
 // 引入Vuex
 import store from '../src/store'
 // 引入路由
-import router from '../src/router'
+import router from '../src/routes'
 
 // 配置默认的请求地址头
 axios.defaults.baseURL = process.env.VUE_APP_Back
@@ -41,7 +41,7 @@ function clearHandler() {
   store.commit('setToken', '');
   // 跳转首页
   router.push({
-    path: '/home',
+    path: '/',
     query: {
       redirect: router.currentRoute.path
     }

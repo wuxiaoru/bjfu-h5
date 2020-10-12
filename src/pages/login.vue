@@ -122,9 +122,9 @@ export default {
 
               // 如果 res.role 为空，证明是新用户，需要跳转improve-info界面
               if (res.role.length == 0) {
-                this.$router.push("/improve-info");
+                this.$router.push("/approve");
               } else {
-                this.$router.push("/home-main");
+                this.$router.push("/approve");
               }
             }
           });

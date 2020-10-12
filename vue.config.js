@@ -3,7 +3,7 @@ const productionGzip = true;
 const productionGzipExtensions = ["js", "css"];
 module.exports = {
   productionSourceMap: false,
-  outputDir: "NewsManager",
+  outputDir: "News",
   publicPath: './',
   lintOnSave: false,
   chainWebpack: config => {

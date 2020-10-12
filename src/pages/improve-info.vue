@@ -154,7 +154,7 @@ export default {
                 localStorage.setItem("UserName", this.addForm.userName);
                 localStorage.setItem("UserJob", this.addForm.job);
                 localStorage.setItem("UserUnit", this.addForm.unit);
-                this.$router.push("/home-main");
+                // this.$router.push("/home-main");
               }
             });
         } else {

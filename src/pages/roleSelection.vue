@@ -61,7 +61,7 @@ export default {
         default:
           break;
       };
-      this.$router.push("/home-main");
+      // this.$router.push("/home-main");
     }
   }
 };
